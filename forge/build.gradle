@@ -18,6 +18,10 @@ repositories {
     maven {
         url = 'https://maven.blamejared.com'
     }
+    maven {
+        name "reposiliteRepositoryReleases"
+        url "https://maven.epherical.com/releases"
+    }
 }
 
 version = project.mod_version
