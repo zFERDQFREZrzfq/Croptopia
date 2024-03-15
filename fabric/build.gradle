@@ -16,6 +16,9 @@ repositories {
     maven {
         url = "https://maven.terraformersmc.com/"
     }
+    maven {
+        url = "https://maven.epherical.com/releases"
+    }
 }
 
 archivesBaseName = archives_base_name
