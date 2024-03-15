@@ -12,6 +12,7 @@ on:
     branches: [ "v3_1.20" ]
   pull_request:
     branches: [ "v3_1.20" ]
+  workflow_dispatch:
 
 jobs:
   build:
