@@ -167,7 +167,7 @@ reobf {
 }
 
 jar.finalizedBy('reobfJar')
-shadowJar.dependsOn('reobfJar')
+//shadowJar.dependsOn('reobfJar')
 
 task sourceJar(type: Jar) {
     archiveClassifier = 'sources'
